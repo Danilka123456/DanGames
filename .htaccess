@@ -1,1 +1,2 @@
 ErrorDocument 404 https://dan-games.tk/www/index/index.html
+Redirect / https://dan-games.tk/www/index/index.html
