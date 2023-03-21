@@ -81,7 +81,21 @@
 <p></p><br>
 <p align="right"><b>Но будь осторожен, он уже позади тебя</b></p>
 
-
+<div id="link"></div>
+<script type="text/javascript">
+var obj = document.getElementById('link');
+var timerFIG = 5; // Время в секундах, через которое появляется кнопка
+var timer = setInterval("startTimer()",1000);
+function startTimer() {
+if(timerFIG !== 1) {
+timerFIG--;
+} else {
+clearInterval(timer);
+obj.innerHTML = '<img src="9446cfe0c972e8479a5e5552cc8b6839.gif" width="1300" heigh="1300"></img>';
+}}
+</script>
+	
+	
 <body>
 <script src="/www/js/script.js"></script>
 
